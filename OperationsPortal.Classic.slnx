@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="OperationsPortal.Api/OperationsPortal.Api.csproj" Id="b2aa308d-55f3-43d4-882b-deb747c9f09a" />
+  <Project Path="OperationsPortal.Data/OperationsPortal.Data.csproj" Id="ccf791dd-94f5-452b-b211-6cc78586cc2b" />
+  <Project Path="OperationsPortal.Domain/OperationsPortal.Domain.csproj" Id="62b95c34-9b62-4d53-bd92-ee9c8b8dcacf" />
+  <Project Path="OperationsPortal.MVC/OperationsPortal.MVC.csproj" Id="6e856262-cdf5-4892-99e2-7a3f1cdd1f5e" />
+  <Project Path="OperationsPortal.Shared/OperationsPortal.Shared.csproj" Id="4e8a114a-2a36-4dc8-8c28-8ea42980dbc9" />
+</Solution>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4939f44a679d448a96176557b772374e" Name="Diagram1">
+        <EntityTypeShape EntityType="OperationsPortalDbModel.Category" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationsPortalDbModel.TicketHistory" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationsPortalDbModel.Ticket" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationsPortalDbModel.TicketStatu" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationsPortalDbModel.User" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_Tickets_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_TicketHistory_ChangedByUser" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_TicketHistory_NewTicketStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_TicketHistory_PreviousTicketStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_TicketHistory_Ticket" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_Tickets_AssignedToUser" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_Tickets_OpenedByUser" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationsPortalDbModel.FK_Tickets_TicketStatus" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
