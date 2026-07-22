@@ -10,6 +10,7 @@ namespace OperationsPortal.Api.Controllers
     {
         private readonly CategoryRepository _repository = new CategoryRepository();
 
+
         [HttpGet]
         [Route("")]
         public IHttpActionResult Get()
@@ -17,6 +18,7 @@ namespace OperationsPortal.Api.Controllers
             var categories = _repository.GetAll();
             return Ok(categories);
         }
+
 
         [HttpGet]
         [Route("{id:int}")]
