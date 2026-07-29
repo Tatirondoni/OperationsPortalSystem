@@ -1,5 +1,4 @@
-﻿using OperationsPortal.Domain.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace OperationsPortal.Data.Repositories
@@ -14,14 +13,15 @@ namespace OperationsPortal.Data.Repositories
         public TicketStatusRepository()
         {
             _context = new OperationsPortalDbEntities1();
+            _context.Configuration.ProxyCreationEnabled = false;
         }
 
-        public List<TicketStatus> GetAll()
+        public List<TicketStatu> GetAll()
         {
             return _context.TicketStatus.ToList();
         }
 
-        public TicketStatus GetById(int id)
+        public TicketStatu GetById(int id)
         {
             return _context.TicketStatus.FirstOrDefault(x => x.TicketStatusId == id);
         }
