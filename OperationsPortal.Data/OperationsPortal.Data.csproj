@@ -74,6 +74,8 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\TicketHistoryRepository.cs" />
+    <Compile Include="Repositories\TicketRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Repositories\TicketStatusRepository.cs" />
     <Compile Include="Ticket.cs">
