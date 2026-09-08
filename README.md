@@ -1,3 +1,5 @@
+ ***legacy modernization:  https://github.com/Tatirondoni/OperationsPortalSystem.Core/tree/feature/core-foundation 
+
 # OperationsPortal.Classic
 
 ## Overview
